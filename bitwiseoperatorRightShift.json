@@ -1,0 +1,65 @@
+[
+    {
+        "question": "What is the result of the following right shift operation?\n\n```cpp\nint x = 8;\nx = x >> 2;\ncout << x << endl;\n```",
+        "options": ["1", "2", "4", "16"],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What will the following code output?\n\n```cpp\nint y = 16;\ny = y >> 3;\ncout << y << endl;\n```",
+        "options": ["1", "2", "4", "8"],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "What is the result of the following right shift operation?\n\n```cpp\nint z = 32;\nz = z >> 4;\ncout << z << endl;\n```",
+        "options": ["1", "2", "4", "16"],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the value of 'x' after this operation?\n\n```cpp\nint x = 64;\nx = x >> 2;\ncout << x << endl;\n```",
+        "options": ["16", "32", "64", "128"],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What happens when you right shift a negative number?\n\n```cpp\nint a = -8;\na = a >> 2;\ncout << a << endl;\n```",
+        "options": [
+            "The result is always negative",
+            "The result is always positive",
+            "The result depends on the system",
+            "The result is zero"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the result of the following right shift operation?\n\n```cpp\nint b = 1;\nb = b >> 1;\ncout << b << endl;\n```",
+        "options": ["0", "1", "2", "4"],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "How do you shift a number by 1 position to the right in C++?\n\n```cpp\nint c = 16;\nc = c >> 1;\ncout << c << endl;\n```",
+        "options": [
+            "Dividing by 2",
+            "Multiplying by 2",
+            "Subtracting 1",
+            "Adding 1"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "Which of the following is true for the right shift operator in C++?\n\n```cpp\nint x = 4;\nx = x >> 1;\ncout << x << endl;\n```",
+        "options": [
+            "It divides the number by 2",
+            "It multiplies the number by 2",
+            "It subtracts 1 from the number",
+            "It adds 1 to the number"
+        ],
+        "answer": 0,
+        "selected": -1
+    }
+]
