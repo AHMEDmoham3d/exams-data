@@ -1,0 +1,91 @@
+[
+    {
+      "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    int a = 5;\n    int b = 3;\n    printf(\"%d\", a || b);\n    return 0;\n}```",
+      "options": [
+        "Incorrect use of logical OR (||) instead of bitwise OR (|)",
+        "Incorrect format specifier",
+        "Missing semicolon",
+        "No mistake"
+      ],
+      "answer": 0,
+      "selected": -1
+    },
+    {
+      "question": "What is the issue in the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    int x = 8 |;\n    printf(\"%d\", x);\n    return 0;\n}```",
+      "options": [
+        "Unexpected '|' at the end of expression",
+        "Incorrect format specifier",
+        "Missing return statement",
+        "No mistake"
+      ],
+      "answer": 0,
+      "selected": -1
+    },
+    {
+      "question": "What is wrong with this bitwise OR operation?\n\n```c\n#include <stdio.h>\nint main() {\n    int a = 6;\n    char b = '2';\n    int result = a | b;\n    printf(\"%d\", result);\n    return 0;\n}```",
+      "options": [
+        "Character '2' is incorrectly used in bitwise OR",
+        "Missing semicolon",
+        "Incorrect format specifier",
+        "No mistake"
+      ],
+      "answer": 0,
+      "selected": -1
+    },
+    {
+      "question": "Find the error in this code snippet:\n\n```c\n#include <stdio.h>\nint main() {\n    int x = 5, y = 10;\n    int z = x | y;\n    printf(\"Bitwise OR: %f\", z);\n    return 0;\n}```",
+      "options": [
+        "Incorrect format specifier (should be %d instead of %f)",
+        "Bitwise OR cannot be used on integers",
+        "Missing return statement",
+        "No mistake"
+      ],
+      "answer": 0,
+      "selected": -1
+    },
+    {
+      "question": "Identify the problem in this code:\n\n```c\n#include <stdio.h>\nint main() {\n    int num = 3 | 5 |;\n    printf(\"%d\", num);\n    return 0;\n}```",
+      "options": [
+        "Unexpected '|' at the end of the expression",
+        "Incorrect format specifier",
+        "Incorrect variable declaration",
+        "No mistake"
+      ],
+      "answer": 0,
+      "selected": -1
+    },
+    {
+      "question": "What is wrong in the following code?\n\n```c\n#include <stdio.h>\nint main() {\n    int a = 9;\n    float b = 2.5;\n    printf(\"%d\", a | b);\n    return 0;\n}```",
+      "options": [
+        "Bitwise OR cannot be used with float values",
+        "Incorrect format specifier",
+        "Missing semicolon",
+        "No mistake"
+      ],
+      "answer": 0,
+      "selected": -1
+    },
+    {
+      "question": "Find the mistake in this bitwise OR operation:\n\n```c\n#include <stdio.h>\nint main() {\n    int a = 4, b = 2;\n    printf(\"Bitwise OR: %d\", a | b |);\n    return 0;\n}```",
+      "options": [
+        "Unexpected '|' at the end of the expression",
+        "Incorrect use of bitwise OR",
+        "Incorrect format specifier",
+        "No mistake"
+      ],
+      "answer": 0,
+      "selected": -1
+    },
+    {
+      "question": "What is incorrect in this C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int x = 5;\n    int y = x | 2;\n    printf(\"%f\", y);\n    return 0;\n}```",
+      "options": [
+        "Incorrect format specifier (should be %d instead of %f)",
+        "Incorrect bitwise OR usage",
+        "Missing return statement",
+        "No mistake"
+      ],
+      "answer": 0,
+      "selected": -1
+    }
+  ]
+  
