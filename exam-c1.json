@@ -1,0 +1,112 @@
+[
+    {
+        "question": "What is the error in the following C code?\n\n#include <stdio.h>\nint main() {\n    int x;\n    scanf(\"%d\"); // Missing variable to store input\n    return 0;\n}",
+        "options": [
+            "Missing variable in scanf",
+            "printf statement missing",
+            "No return statement",
+            "int type cannot be used in scanf"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n#include <stdio.h>\nint main() {\n    printf(\"Hello World\"); // Missing newline\n    return 0;\n}",
+        "options": [
+            "No semicolon after printf",
+            "No return statement",
+            "Missing \\n in printf",
+            "Syntax error in printf"
+        ],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n#include <stdio.h>\nint main() {\n    int a = 5;\n    if (a = 10) { // Should be '==' instead of '='\n        printf(\"A is 10\");\n    }\n    return 0;\n}",
+        "options": [
+            "Assignment operator used instead of comparison",
+            "Missing semicolon",
+            "No printf statement",
+            "return statement is missing"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What will be the output of the following C code?\n\n#include <stdio.h>\nint main() {\n    int a = 5, b = 2;\n    printf(\"%d\", a / b);\n    return 0;\n}",
+        "options": [
+            "2.5",
+            "2",
+            "Compiler error",
+            "Runtime error"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "Which header file is needed to use the 'malloc' function in C?",
+        "options": [
+            "<stdio.h>",
+            "<stdlib.h>",
+            "<string.h>",
+            "<math.h>"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n#include <stdio.h>\nint main() {\n    int arr[5];\n    arr[5] = 10; // Out of bounds error\n    return 0;\n}",
+        "options": [
+            "Accessing out-of-bounds array index",
+            "Arrays cannot store values",
+            "Array size must be variable",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the output of the following C code?\n\n#include <stdio.h>\nint main() {\n    char ch = 'A';\n    printf(\"%d\", ch);\n    return 0;\n}",
+        "options": [
+            "A",
+            "65",
+            "Print error",
+            "Nothing prints"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the output of the following C code?\n\n#include <stdio.h>\nvoid func() {\n    static int count = 0;\n    count++;\n    printf(\"%d \", count);\n}\nint main() {\n    func();\n    func();\n    func();\n    return 0;\n}",
+        "options": [
+            "1 1 1",
+            "1 2 3",
+            "Execution error",
+            "0 1 2"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the default return type of a function in C if not specified?",
+        "options": [
+            "int",
+            "void",
+            "float",
+            "char"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n#include <stdio.h>\nint main() {\n    int *ptr;\n    *ptr = 10; // Uninitialized pointer usage\n    printf(\"%d\", *ptr);\n    return 0;\n}",
+        "options": [
+            "No error",
+            "Pointer not initialized",
+            "Cannot print pointer value",
+            "Error in printf"
+        ],
+        "answer": 1,
+        "selected": -1
+    }
+]
