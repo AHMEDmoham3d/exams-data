@@ -1,0 +1,53 @@
+[
+    {
+        "question": "What will be the output of the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    int i = 5;\n    do {\n        printf(\"%d \", i);\n        i--;\n    } while (i > 0);\n    return 0;\n}\n```",
+        "options": ["5 4 3 2 1", "5 4 3 2 1 0", "4 3 2 1 0", "Infinite loop"],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "How many times will the following C loop execute?\n\n```c\n#include <stdio.h>\nint main() {\n    int i = 10;\n    do {\n        printf(\"Hello\");\n    } while (i < 0);\n    return 0;\n}\n```",
+        "options": ["0 times", "1 time", "Infinite times", "Compiler error"],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the main difference between a 'do-while' and a 'while' loop in C?",
+        "options": [
+            "do-while executes at least once, while while may not execute at all",
+            "while executes at least once, do-while may not execute",
+            "Both work the same way",
+            "do-while does not check conditions"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "Which of the following is true about 'do-while' loops in C?",
+        "options": [
+            "Condition is checked before execution",
+            "Loop will always run at least once",
+            "It runs only if the condition is true",
+            "do-while cannot be used with integers"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What will be the output of this C code?\n\n```c\n#include <stdio.h>\nint main() {\n    int i = 3;\n    do {\n        printf(\"%d \", i);\n    } while (--i);\n    return 0;\n}\n```",
+        "options": ["3 2 1 0", "3 2 1", "2 1 0", "Infinite loop"],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "Which statement is true about 'do-while' loops in C?",
+        "options": [
+            "It always runs at least once",
+            "It never runs if the condition is false initially",
+            "It runs only if the condition is true",
+            "It is not used in C"
+        ],
+        "answer": 0,
+        "selected": -1
+    }
+]
