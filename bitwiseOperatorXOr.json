@@ -1,0 +1,90 @@
+[
+    {
+        "question": "What is the error in the following C++ code?\n\n```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int a = 5, b = 3;\n    cout << a ^ b << endl;\n    return 0;\n}\n```",
+        "options": [
+            "No error, the code is correct",
+            "XOR operator is not supported in C++",
+            "XOR operator should be used with a variable",
+            "The result of XOR cannot be printed directly"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C++ code?\n\n```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int a = 5;\n    cout << ~a << endl;\n    return 0;\n}\n```",
+        "options": [
+            "The NOT operator (~) cannot be used with integers",
+            "No error, the code is correct",
+            "The NOT operator is invalid for integers in C++",
+            "The output will be incorrect"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C++ code?\n\n```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int a = 7;\n    int b = 3;\n    cout << a ^ b ^ 4 << endl;\n    return 0;\n}\n```",
+        "options": [
+            "XOR operation is not allowed on integers",
+            "The XOR operator should only be used between two variables",
+            "No error, the code is correct",
+            "XOR operation is not commutative"
+        ],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C++ code?\n\n```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int a = 9;\n    int b = 6;\n    cout << ~(a & b) << endl;\n    return 0;\n}\n```",
+        "options": [
+            "The NOT operator (~) cannot be used with logical operations",
+            "No error, the code is correct",
+            "The AND operator (&) should be replaced with OR (|)",
+            "Incorrect output due to using both AND and NOT operators"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C++ code?\n\n```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int a = 10;\n    int b = 5;\n    cout << a ^ ~b << endl;\n    return 0;\n}\n```",
+        "options": [
+            "No error, the code is correct",
+            "XOR and NOT cannot be used together",
+            "You cannot mix XOR and NOT operations on different variables",
+            "The NOT operator (~) is applied incorrectly"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C++ code?\n\n```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int a = 6;\n    cout << a << ~a << endl;\n    return 0;\n}\n```",
+        "options": [
+            "The output will be incorrect due to precedence of operators",
+            "No error, the code is correct",
+            "The NOT operator (~) cannot be applied to the variable directly",
+            "The NOT operator (~) should be used before the variable"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C++ code?\n\n```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int a = 4;\n    int b = 2;\n    cout << a ^ b ^ 4 << endl;\n    return 0;\n}\n```",
+        "options": [
+            "No error, the code is correct",
+            "The result of XOR should be assigned to a variable",
+            "XOR cannot be used with integers in C++",
+            "XOR operation does not work with multiple operands"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C++ code?\n\n```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int a = 8;\n    cout << ~a << endl;\n    return 0;\n}\n```",
+        "options": [
+            "No error, the code is correct",
+            "Output will be incorrect because of negative result",
+            "The NOT operator (~) works only with unsigned integers",
+            "The result of NOT operation will be a float"
+        ],
+        "answer": 0,
+        "selected": -1
+    }
+]
