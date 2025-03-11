@@ -1,0 +1,106 @@
+{
+    "quiz_name": "Binary Operations in C",
+    "description": "This quiz tests your knowledge of bitwise and logical operations in C programming.",
+    "questions": [
+      {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    int x = 5 >> 2.5;\n    printf(\"%d\", x);\n    return 0;\n}\n```",
+        "options": [
+          "Shift amount must be an integer",
+          "Missing semicolon",
+          "Right shift is not allowed",
+          "printf format specifier is incorrect"
+        ],
+        "answer": 0,
+        "selected": -1
+      },
+      {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    int a = 5 & 3;\n    printf(\"%f\", a);\n    return 0;\n}\n```",
+        "options": [
+          "Bitwise AND cannot be used with integers",
+          "Incorrect printf format specifier",
+          "Variables must be declared at the beginning",
+          "Missing return statement"
+        ],
+        "answer": 1,
+        "selected": -1
+      },
+      {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = -5;\n    printf(\"%u\", x);\n    return 0;\n}\n```",
+        "options": [
+          "Negative value assigned to unsigned int",
+          "printf format specifier is incorrect",
+          "Unsigned int must be positive",
+          "Missing return statement"
+        ],
+        "answer": 0,
+        "selected": -1
+      },
+      {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    int x = 5 | 2;\n    printf(\"%d\", x);\n    return;\n}\n```",
+        "options": [
+          "Bitwise OR is not allowed",
+          "printf format specifier is incorrect",
+          "main must return an integer",
+          "Missing semicolon"
+        ],
+        "answer": 2,
+        "selected": -1
+      },
+      {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    int a = 10;\n    int b = ~a;\n    printf(\"%d\", b);\n    return 0;\n}\n```",
+        "options": [
+          "Bitwise NOT cannot be used on integers",
+          "printf format specifier is incorrect",
+          "Bitwise NOT returns a negative value",
+          "No error in this code"
+        ],
+        "answer": 3,
+        "selected": -1
+      },
+      {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    int x = 8 << -1;\n    printf(\"%d\", x);\n    return 0;\n}\n```",
+        "options": [
+          "Left shift amount must be non-negative",
+          "printf format specifier is incorrect",
+          "Left shift is not allowed",
+          "Missing semicolon"
+        ],
+        "answer": 0,
+        "selected": -1
+      },
+      {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    int x = 5 ^ 3.0;\n    printf(\"%d\", x);\n    return 0;\n}\n```",
+        "options": [
+          "XOR operator cannot be used with float",
+          "printf format specifier is incorrect",
+          "Bitwise XOR is not allowed",
+          "No error in this code"
+        ],
+        "answer": 0,
+        "selected": -1
+      },
+      {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    int x = 10;\n    x <<= 33;\n    printf(\"%d\", x);\n    return 0;\n}\n```",
+        "options": [
+          "Left shift exceeds integer size",
+          "printf format specifier is incorrect",
+          "Left shift is not allowed",
+          "No error in this code"
+        ],
+        "answer": 0,
+        "selected": -1
+      },
+      {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    int a = 5, b = 2;\n    int c = a && b;\n    printf(\"%d\", c);\n    return 0;\n}\n```",
+        "options": [
+          "Logical AND cannot be used with integers",
+          "printf format specifier is incorrect",
+          "Logical AND returns 0 or 1",
+          "No error in this code"
+        ],
+        "answer": 3,
+        "selected": -1
+      }
+    ]
+  }
+  
