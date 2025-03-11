@@ -1,0 +1,90 @@
+[
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    int a = 10;\n    int *ptr = &a;\n    *ptr = 20;\n    printf(\"%d\", ptr);\n    return 0;\n}\n```",
+        "options": [
+            "Dereferencing a pointer instead of printing the value",
+            "Invalid pointer assignment",
+            "Incorrect usage of the printf function",
+            "The pointer should be printed using *ptr"
+        ],
+        "answer": 3,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    int *ptr;\n    *ptr = 10;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+        "options": [
+            "Uninitialized pointer",
+            "Pointer dereferencing without memory allocation",
+            "Memory leak",
+            "The pointer should be initialized before dereferencing"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    int a = 5;\n    int *ptr = &a;\n    *ptr = 10;\n    ptr = NULL;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+        "options": [
+            "Dereferencing a NULL pointer",
+            "Memory allocation error",
+            "Pointer should not be set to NULL after use",
+            "Incorrect pointer dereferencing"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    int *ptr = malloc(sizeof(int));\n    *ptr = 20;\n    printf(\"%d\", ptr);\n    return 0;\n}\n```",
+        "options": [
+            "Memory leak",
+            "Incorrect pointer dereferencing",
+            "Dereferencing without checking if malloc succeeded",
+            "Memory allocation function not properly used"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[] = {1, 2, 3, 4};\n    int *ptr = arr;\n    printf(\"%d\", *(ptr+4));\n    return 0;\n}\n```",
+        "options": [
+            "Out of bounds array access",
+            "Dereferencing an uninitialized pointer",
+            "Incorrect pointer arithmetic",
+            "Array out of memory"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    int *ptr = 10;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+        "options": [
+            "Assigning a literal to a pointer",
+            "Dereferencing an uninitialized pointer",
+            "Invalid pointer type",
+            "Incorrect dereferencing"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    int a = 5;\n    int *ptr = &a;\n    ptr++;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+        "options": [
+            "Pointer increment leading to undefined behavior",
+            "Dereferencing an invalid pointer",
+            "Incorrect pointer arithmetic",
+            "Pointer overflow"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    int *ptr = NULL;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+        "options": [
+            "Dereferencing a NULL pointer",
+            "Incorrect use of printf with a pointer",
+            "Uninitialized pointer",
+            "Memory allocation required before dereferencing"
+        ],
+        "answer": 0,
+        "selected": -1
+    }
+]
