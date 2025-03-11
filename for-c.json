@@ -1,0 +1,36 @@
+[
+    {
+        "question": "What is the output of the following C code?\n\n```c\n#include <stdio.h>\n\nint main() {\n    for (int i = 0; i < 3; i++) {\n        printf(\"%d \", i);\n    }\n    return 0;\n}\n```",
+        "options": ["0 1 2", "1 2 3", "0 1 2 3", "Infinite loop"],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "How many times does the loop execute?\n\n```c\n#include <stdio.h>\n\nint main() {\n    for (int i = 5; i > 0; i -= 2) {\n        printf(\"%d \", i);\n    }\n    return 0;\n}\n```",
+        "options": ["3 times", "2 times", "5 times", "Infinite loop"],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is wrong with this for loop?\n\n```c\n#include <stdio.h>\n\nint main() {\n    for (int i = 0; i < 10; i--) {\n        printf(\"%d \", i);\n    }\n    return 0;\n}\n```",
+        "options": [
+            "i is decreasing instead of increasing",
+            "Missing semicolon",
+            "Loop should start at 1",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the purpose of a for loop?",
+        "options": [
+            "To execute a block of code multiple times",
+            "To define a function",
+            "To declare a variable",
+            "To return a value"
+        ],
+        "answer": 0,
+        "selected": -1
+    }
+]
