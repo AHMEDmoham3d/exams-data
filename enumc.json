@@ -1,0 +1,112 @@
+[
+    {
+        "question": "What is wrong with this enum declaration?\n\n```c\nenum Colors { RED = 1, GREEN, BLUE = 1 };\n```",
+        "options": [
+            "Duplicate value assignment",
+            "Missing semicolon",
+            "Enum should start from 0",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the issue with this enum definition?\n\n```c\nenum Days { MONDAY = 1, TUESDAY, MONDAY };\n```",
+        "options": [
+            "Duplicate enum name",
+            "Incorrect syntax",
+            "Enum values must be strings",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "Identify the mistake in this code snippet.\n\n```c\nenum Status { ACTIVE, INACTIVE, PENDING; };\n```",
+        "options": [
+            "Semicolon after last enum value",
+            "Enum names must be lowercase",
+            "Missing brackets",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is wrong in the following C enum?\n\n```c\nenum Shapes { CIRCLE, SQUARE = 10, TRIANGLE = 5 };\n```",
+        "options": [
+            "Inconsistent value ordering",
+            "Enum should have default values only",
+            "Enums cannot have numbers",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "Find the mistake in this enum usage.\n\n```c\nenum Fruits { APPLE = 'A', BANANA, ORANGE };\n```",
+        "options": [
+            "Enum values cannot be characters",
+            "Enum must start with a number",
+            "Missing a semicolon",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is wrong with this enum declaration?\n\n```c\nenum Cars { TOYOTA, FORD = 2.5, BMW };\n```",
+        "options": [
+            "Enum values must be integers",
+            "Enum names must be in uppercase",
+            "Missing assignment operator",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "Identify the mistake in this enum.\n\n```c\nenum Planets { MERCURY, VENUS = MERCURY + 2, EARTH = VENUS - 1 };\n```",
+        "options": [
+            "Invalid arithmetic operation",
+            "Enum values must be unique",
+            "Missing closing brace",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What issue is present in this C enum?\n\n```c\nenum Animals { CAT, DOG, CAT = 3 };\n```",
+        "options": [
+            "Duplicate enum name",
+            "Incorrect value assignment",
+            "Enum names cannot contain digits",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "Find the mistake in this enum example.\n\n```c\nenum Sizes { SMALL = 1, MEDIUM = SMALL + 2, LARGE = BIG };\n```",
+        "options": [
+            "Undefined reference to BIG",
+            "Enum values must be sequential",
+            "Enum must end with a semicolon",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What mistake does this enum contain?\n\n```c\nenum Status { OK, ERROR, WARNING };\nint main() {\n    Status s = 1;\n    return 0;\n}\n```",
+        "options": [
+            "Enum type must be specified before variable",
+            "Enum cannot be used as an integer",
+            "Enum must be inside a function",
+            "No error"
+        ],
+        "answer": 1,
+        "selected": -1
+    }
+]
