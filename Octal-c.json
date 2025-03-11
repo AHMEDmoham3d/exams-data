@@ -1,0 +1,26 @@
+[
+    {
+        "question": "What is the octal equivalent of the decimal number 65?",
+        "options": ["101", "81", "101", "201"],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "Which format specifier is used to print an octal number in C?",
+        "options": ["%o", "%x", "%d", "%f"],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What will be the output of the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    printf(\"%o\", 64);\n    return 0;\n}\n```",
+        "options": ["64", "100", "40", "80"],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "Which of the following is a valid octal number?",
+        "options": ["087", "075", "09", "0078"],
+        "answer": 1,
+        "selected": -1
+    }
+]
