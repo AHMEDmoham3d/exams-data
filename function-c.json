@@ -1,0 +1,57 @@
+[
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\n\nvoid add(int a, int b);\n\nint main() {\n    add(5, 10);\n    return 0;\n}\n\nvoid add(int a, int b) {\n    return a + b;\n}\n```",
+        "options": [
+            "The function should return an int value",
+            "Missing semicolon",
+            "Function declaration is incorrect",
+            "Functions in C cannot take parameters"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\n\nvoid printMessage() {\n    printf(\"Hello, World!\\n\");\n}\n\nint main() {\n    printMessage;\n    return 0;\n}\n```",
+        "options": [
+            "printMessage should be called with parentheses",
+            "Functions cannot be called inside main",
+            "printf should not be used inside functions",
+            "C does not support functions"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\n\nint multiply(int a, int b);\n\nint main() {\n    int result = multiply(3, 4);\n    printf(\"%d\\n\", result);\n    return 0;\n}\n\nint multiply(int a, int b) {\n    printf(\"Multiplying...\\n\");\n}\n```",
+        "options": [
+            "Function multiply does not return a value",
+            "int is not a valid return type",
+            "printf cannot be inside a function",
+            "C functions cannot return integers"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\n\nint divide(int a, int b) {\n    return a / b;\n}\n\nint main() {\n    int result = divide(10, 0);\n    printf(\"%d\\n\", result);\n    return 0;\n}\n```",
+        "options": [
+            "Division by zero is undefined behavior",
+            "divide function should return void",
+            "C does not support division",
+            "printf cannot print integer values"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\n\nint square(int x);\n\nint main() {\n    printf(\"%d\\n\", square(5));\n    return 0;\n}\n\nint square(int x) {\n    int x = x * x;\n    return x;\n}\n```",
+        "options": [
+            "Variable x is redeclared inside square function",
+            "square function should return void",
+            "C functions cannot modify parameters",
+            "printf cannot print function results"
+        ],
+        "answer": 0,
+        "selected": -1
+    }
+]
