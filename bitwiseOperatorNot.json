@@ -1,0 +1,93 @@
+{
+    "questions": [
+      {
+        "question": "What is the error in the following code? \nint x = 5; \nint result = ~x + 3;",
+        "options": [
+          "Missing parentheses around the bitwise NOT operator",
+          "The addition should be done before the bitwise NOT",
+          "The bitwise NOT operator is incorrectly applied",
+          "There is no error"
+        ],
+        "answer": 2,
+        "selected": -1
+      },
+      {
+        "question": "What is the error in the following code? \nint x = 8; \nint result = ~x * 2;",
+        "options": [
+          "The multiplication should be done before the bitwise NOT",
+          "The result is incorrect for this operation",
+          "The bitwise NOT operator is not suitable for multiplication",
+          "There is no error"
+        ],
+        "answer": 3,
+        "selected": -1
+      },
+      {
+        "question": "What is the error in the following code? \nint x = 0; \nint result = ~x - 1;",
+        "options": [
+          "Bitwise NOT should not be used with subtraction",
+          "The operator precedence is wrong",
+          "The result of ~x should be incremented, not decremented",
+          "There is no error"
+        ],
+        "answer": 1,
+        "selected": -1
+      },
+      {
+        "question": "What is the error in the following code? \nint x = 10; \nint result = ~x << 2;",
+        "options": [
+          "The shift operation should happen before the bitwise NOT",
+          "The shift operator should be applied after the addition",
+          "The operator precedence might not give the expected result",
+          "There is no error"
+        ],
+        "answer": 2,
+        "selected": -1
+      },
+      {
+        "question": "What is the error in the following code? \nint x = 7; \nint result = ~x >> 1;",
+        "options": [
+          "Right shift should be done before the bitwise NOT",
+          "Bitwise NOT and shift operations might not work well together",
+          "The operator precedence is not properly handled",
+          "There is no error"
+        ],
+        "answer": 2,
+        "selected": -1
+      },
+      {
+        "question": "What is the error in the following code? \nint x = -3; \nint result = ~x;",
+        "options": [
+          "The result should be negated before applying bitwise NOT",
+          "The bitwise NOT operator doesn’t work on negative numbers",
+          "Bitwise NOT does not affect negative values",
+          "There is no error"
+        ],
+        "answer": 3,
+        "selected": -1
+      },
+      {
+        "question": "What is the error in the following code? \nint x = 12; \nint result = ~x + 2 * 3;",
+        "options": [
+          "The multiplication should be applied after the bitwise NOT",
+          "Bitwise NOT should be applied after the multiplication",
+          "The operator precedence might cause the wrong result",
+          "There is no error"
+        ],
+        "answer": 2,
+        "selected": -1
+      },
+      {
+        "question": "What is the error in the following code? \nint x = 14; \nint result = ~x / 2;",
+        "options": [
+          "Division should be done before applying the bitwise NOT",
+          "Bitwise NOT and division should not be combined",
+          "The division operator is not compatible with bitwise NOT",
+          "There is no error"
+        ],
+        "answer": 3,
+        "selected": -1
+      }
+    ]
+  }
+  
