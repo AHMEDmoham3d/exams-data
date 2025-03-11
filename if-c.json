@@ -1,0 +1,36 @@
+[
+    {
+        "question": "What will be the output of the following C++ code?\n\n```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int x = 10;\n    if (x > 5)\n        cout << \"Greater\";\n    else\n        cout << \"Smaller\";\n    return 0;\n}\n```",
+        "options": ["Greater", "Smaller", "Error", "No Output"],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is wrong with the following C++ if statement?\n\n```cpp\nif x > 10 {\n    cout << \"Hello\";\n}\n```",
+        "options": [
+            "Missing parentheses around condition",
+            "Curly braces should not be used",
+            "Condition must use a semicolon",
+            "Nothing is wrong"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "Which of the following is true about if statements in C++?",
+        "options": [
+            "An if statement must always be followed by an else",
+            "An if statement can exist without an else",
+            "An if statement cannot have multiple conditions",
+            "An if statement must always have curly braces"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What will be the output of the following C++ code?\n\n```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int x = 5;\n    if (x == 5)\n        cout << \"Yes\";\n    cout << \"No\";\n    return 0;\n}\n```",
+        "options": ["Yes", "No", "YesNo", "Error"],
+        "answer": 2,
+        "selected": -1
+    }
+]
