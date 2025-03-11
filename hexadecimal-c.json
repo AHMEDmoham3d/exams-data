@@ -1,0 +1,68 @@
+[
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\n\nint main() {\n    int num = 0xG4;\n    printf(\"%d\\n\", num);\n    return 0;\n}\n```",
+        "options": [
+            "Invalid hexadecimal number",
+            "Missing semicolon",
+            "Incorrect printf format specifier",
+            "Hexadecimal numbers must start with 0b"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\n\nint main() {\n    int num = 0xA1;\n    printf(\"%x\", num);\n    return 0;\n}\n```",
+        "options": [
+            "%x should be replaced with %d",
+            "No error, the code is correct",
+            "Hexadecimal values cannot be printed",
+            "Integer variables cannot store hexadecimal values"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\n\nint main() {\n    char hex[] = \"0x1F\";\n    int num = atoi(hex);\n    printf(\"%d\\n\", num);\n    return 0;\n}\n```",
+        "options": [
+            "Hexadecimal numbers cannot be stored as strings",
+            "atoi() does not work with hexadecimal values",
+            "%d should be replaced with %x",
+            "Missing return statement"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\n\nint main() {\n    int num = 0xZ2;\n    printf(\"%d\\n\", num);\n    return 0;\n}\n```",
+        "options": [
+            "Invalid hexadecimal digit",
+            "0x should be replaced with 0b",
+            "num should be declared as char",
+            "printf should use %x instead of %d"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\n\nint main() {\n    int num = 0x1F;\n    printf(\"%d %d\", num, num);\n    return 0;\n}\n```",
+        "options": [
+            "No error, the code is correct",
+            "%d should be replaced with %x",
+            "Hexadecimal values cannot be printed",
+            "int cannot store hexadecimal numbers"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\n\nint main() {\n    int num = 0xFF;\n    printf(\"%X\", num);\n    return 0;\n}\n```",
+        "options": [
+            "%X should be replaced with %d",
+            "No error, the code is correct",
+            "Hexadecimal numbers cannot be assigned to int",
+            "printf() cannot print hexadecimal numbers"
+        ],
+        "answer": 1,
+        "selected": -1
+    }
+]
