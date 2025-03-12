@@ -1,0 +1,36 @@
+[
+    {
+        "question": "LET name='Ahmed' ",
+        "options": ["const", "final", "LET", "None"],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "let name='Ahmed'\nconsole.LOG(name);",
+        "options": ["var", "let", "const", "LOG"],
+        "answer": 3,
+        "selected": -1
+    },
+    {
+        "question": "var arry=[1,2;3];",
+        "options": [
+            "Semicolon (;) is incorrect",
+            "final is compile-time constant, const is run-time constant",
+            "Both are the same",
+            "None of the above"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "const text='Hello'.",
+        "options": [
+            "let is function-scoped",
+            "let allows reassignment",
+            "let variables are hoisted with an initial value of undefined",
+            "Invalid period (.) at the end"
+        ],
+        "answer": 3,
+        "selected": -1
+    }
+]
