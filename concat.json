@@ -1,0 +1,57 @@
+[
+    {
+        "question": "What is the correct way to concatenate two strings in JavaScript?",
+        "options": [
+            "string1 + string2",
+            "string1.concat(string2)",
+            "Both are correct",
+            "None of the above"
+        ],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "What will be the output of this code?\n\nconsole.log('Hello' + ' World');",
+        "options": [
+            "HelloWorld",
+            "Hello World",
+            "Error",
+            "Undefined"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "Which method can be used to concatenate multiple strings?",
+        "options": [
+            "concat()",
+            "join()",
+            "Both are correct",
+            "None of the above"
+        ],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "What will be the output of this code?\n\nconsole.log(5 + '5');",
+        "options": [
+            "55",
+            "10",
+            "Error",
+            "Undefined"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What happens when a number and a string are concatenated using `+`?",
+        "options": [
+            "It results in a string",
+            "It results in a number",
+            "Error",
+            "None of the above"
+        ],
+        "answer": 0,
+        "selected": -1
+    }
+]
