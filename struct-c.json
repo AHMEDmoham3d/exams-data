@@ -1,0 +1,79 @@
+[
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nstruct Student {\n    char name[20];\n    int age;\n} s;\n\nint main() {\n    s.name = \"John\";\n    s.age = 20;\n    printf(\"%s %d\", s.name, s.age);\n    return 0;\n}\n```",
+        "options": [
+            "Strings cannot be assigned directly",
+            "Missing semicolon after struct definition",
+            "Struct members must be private",
+            "Incorrect printf format"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nstruct Point {\n    int x, y;\n};\n\nint main() {\n    struct Point p;\n    printf(\"%d %d\", p.x, p.y);\n    return 0;\n}\n```",
+        "options": [
+            "Struct variables must be initialized",
+            "Garbage values will be printed",
+            "Missing struct definition",
+            "Structs cannot have multiple members"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nstruct Employee {\n    char name[30];\n    float salary;\n};\n\nint main() {\n    struct Employee e = {\"Alice\", 50000};\n    printf(\"%s %.2lf\", e.name, e.salary);\n    return 0;\n}\n```",
+        "options": [
+            "Use of incorrect format specifier for float",
+            "Salary should be an integer",
+            "Struct initialization is incorrect",
+            "Cannot use float in struct"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nstruct Car {\n    char model[20];\n    int year;\n};\n\nint main() {\n    struct Car c1 = {\"Toyota\", 2015};\n    struct Car c2 = c1;\n    c2.year = 2020;\n    printf(\"%s %d\", c1.model, c1.year);\n    return 0;\n}\n```",
+        "options": [
+            "Structs cannot be assigned directly",
+            "String initialization is incorrect",
+            "c2 does not copy c1 correctly",
+            "No error in the code"
+        ],
+        "answer": 3,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nstruct Node {\n    int data;\n    struct Node next;\n};\n\nint main() {\n    struct Node n1;\n    n1.data = 10;\n    printf(\"%d\", n1.data);\n    return 0;\n}\n```",
+        "options": [
+            "Self-referential struct is incorrect",
+            "Struct cannot have integer members",
+            "next should be a pointer",
+            "Cannot initialize struct members inside main"
+        ],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nstruct Box {\n    int width, height, depth;\n};\n\nvoid printBox(struct Box b) {\n    printf(\"%d %d %d\", b.width, b.height, b.depth);\n}\n\nint main() {\n    printBox({10, 20, 30});\n    return 0;\n}\n```",
+        "options": [
+            "Cannot pass struct literals directly",
+            "printf format is incorrect",
+            "Box struct must be defined inside main",
+            "Should use pointers instead of passing by value"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\nstruct Data {\n    int id;\n    char name[10];\n};\n\nint main() {\n    struct Data d1 = {1, 'Alex'};\n    printf(\"%d %s\", d1.id, d1.name);\n    return 0;\n}\n```",
+        "options": [
+            "String must be enclosed in double quotes",
+            "Struct cannot have integer members",
+            "Wrong use of printf format",
+            "Cannot initialize struct like this"
+        ],
+        "answer": 0,
+        "selected": -1
+    }
+]
