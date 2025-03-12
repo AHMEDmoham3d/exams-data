@@ -1,0 +1,62 @@
+[
+    {
+        "question": "What does the JavaScript filter() method do?",
+        "code": "const numbers = [1, 2, 3, 4, 5];\nconst result = numbers.filter(num => num > 2);",
+        "options": [
+            "Filters out elements greater than 2",
+            "Filters out elements less than 2",
+            "Returns all elements",
+            "Throws an error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What will be the output of the following code?",
+        "code": "const words = ['apple', 'banana', 'grape'];\nconst filtered = words.filter(word => word.includes('a'));",
+        "options": [
+            "['apple', 'banana', 'grape']",
+            "['apple', 'banana']",
+            "['grape']",
+            "[]"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "How does filter() differ from map()?",
+        "code": "[1, 2, 3, 4].filter(x => x > 2);",
+        "options": [
+            "filter removes elements, map transforms them",
+            "Both do the same thing",
+            "map removes elements, filter transforms them",
+            "filter and map cannot be used together"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What happens if filter() returns false for all elements?",
+        "code": "const nums = [10, 20, 30];\nconst filtered = nums.filter(n => n > 50);",
+        "options": [
+            "It throws an error",
+            "It returns an empty array",
+            "It returns the original array",
+            "It returns null"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "Which statement is true about filter()?",
+        "code": "const arr = [1, 2, 3, 4];\nconst newArr = arr.filter(n => n % 2 === 0);",
+        "options": [
+            "It modifies the original array",
+            "It returns a new array",
+            "It returns only odd numbers",
+            "It returns undefined"
+        ],
+        "answer": 1,
+        "selected": -1
+    }
+]
