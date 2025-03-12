@@ -1,0 +1,101 @@
+[
+    {
+        "question": "What is the result of: 5 + 3 * 2 in JavaScript?",
+        "options": ["16", "11", "10", "13"],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What does the '%' operator do in JavaScript?",
+        "options": [
+            "Exponentiation",
+            "Modulo",
+            "Bitwise AND",
+            "None of the above"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the result of: 10 / 2?",
+        "options": ["4", "5", "10", "2"],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What happens when you divide by zero in JavaScript?",
+        "options": ["Error", "Infinity", "0", "NaN"],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the result of: 7 - 2 * 3?",
+        "options": ["15", "1", "5", "10"],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "Which operator is used for exponentiation in JavaScript?",
+        "options": ["^", "**", "exp()", "^^"],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the result of: 3 + 6 / 3?",
+        "options": ["5", "3", "7", "6"],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "What is the correct order of operations in JavaScript?",
+        "options": [
+            "Addition first, then multiplication",
+            "Multiplication first, then addition",
+            "Left to right always",
+            "None of the above"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the result of: 8 % 3?",
+        "options": ["2", "3", "1", "0"],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "What will be the result of: 10 + '5' in JavaScript?",
+        "options": ["15", "105", "Error", "NaN"],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the result of: 2 ** 3?",
+        "options": ["6", "9", "8", "12"],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "What happens when you use '++' operator on a number?",
+        "options": [
+            "It increments the number by 2",
+            "It increments the number by 1",
+            "It decrements the number",
+            "No effect"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the value of: (5 + 2) * 3?",
+        "options": ["21", "17", "15", "12"],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "Which operator is used for floor division in JavaScript?",
+        "options": ["/", "//", "Math.floor()", "%"],
+        "answer": 2,
+        "selected": -1
+    }
+]
