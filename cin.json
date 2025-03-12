@@ -1,0 +1,62 @@
+[
+    {
+        "question": "What is the correct syntax for reading an integer input using cin?",
+        "code": "?",
+        "options": [
+            "cin >> x;",
+            "cin << x;",
+            "input(x);",
+            "scanf('%d', &x);"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "Which header file is required for using cin in C++?",
+        "code": "?",
+        "options": [
+            "#include <iostream>",
+            "#include <stdio.h>",
+            "#include <cin.h>",
+            "#include <string>"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "How can you read a full line of input using cin?",
+        "code": "?",
+        "options": [
+            "cin >> line;",
+            "getline(cin, line);",
+            "cin.get(line);",
+            "cin.read(line);"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What happens when cin fails to read an input correctly?",
+        "code": "?",
+        "options": [
+            "It crashes the program",
+            "It sets an error flag",
+            "It automatically retries",
+            "It skips the input"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the correct way to clear cin's error state?",
+        "code": "?",
+        "options": [
+            "cin.clear();",
+            "cin.reset();",
+            "cin.ignore();",
+            "cin.flush();"
+        ],
+        "answer": 0,
+        "selected": -1
+    }
+]
