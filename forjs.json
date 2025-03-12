@@ -1,0 +1,79 @@
+[
+    {
+        "question": "What is the error in this JavaScript code?\n\nfor i = 0; i < 5; i++) { console.log(i); }",
+        "options": [
+            "Missing 'var', 'let', or 'const' before i",
+            "Semicolon missing",
+            "Infinite loop",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in this JavaScript code?\n\nfor (let i = 0, i < 5; i++) { console.log(i); }",
+        "options": [
+            "Comma should be a semicolon",
+            "i should be declared with 'var'",
+            "Loop condition is incorrect",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in this JavaScript code?\n\nfor (let i = 0; i < 5; i--) { console.log(i); }",
+        "options": [
+            "Loop condition should use 'i++' instead of 'i--'",
+            "Missing brackets",
+            "Cannot use 'let' inside loops",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in this JavaScript code?\n\nfor (let i = 0; i < 5) { console.log(i); i++; }",
+        "options": [
+            "Missing increment step in the loop definition",
+            "Incorrect condition",
+            "Loop should not use 'console.log' inside",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in this JavaScript code?\n\nfor (let i = 0; i < 5; i++); { console.log(i); }",
+        "options": [
+            "Extra semicolon after the for loop",
+            "Missing condition",
+            "i is not defined inside the loop",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the output of this JavaScript code?\n\nfor (let i = 0; i < 3; i++) { setTimeout(() => console.log(i), 1000); }",
+        "options": [
+            "0 1 2",
+            "3 3 3",
+            "undefined",
+            "Error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the issue in this JavaScript code?\n\nfor (var i = 0; i < 3; i++) { setTimeout(() => console.log(i), 1000); }",
+        "options": [
+            "Prints 0 1 2",
+            "Prints 3 3 3",
+            "Throws an error",
+            "Infinite loop"
+        ],
+        "answer": 1,
+        "selected": -1
+    }
+]
