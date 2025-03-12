@@ -1,0 +1,46 @@
+[
+    {
+        "question": "What is the error in the following constructor code?\n\n```cpp\nclass Example {\n    Example(); // Constructor declaration\n};\nint main() {\n    Example obj;\n    return 0;\n}\n```",
+        "options": [
+            "The constructor is not defined outside the class",
+            "The constructor must have a return type",
+            "Objects cannot be created inside main()",
+            "There is no error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "Find the mistake in the constructor below:\n\n```cpp\nclass Sample {\npublic:\n    Sample(int x) {\n        cout << 'Value: ' << x << endl;\n    }\n};\nint main() {\n    Sample obj; // Object creation\n    return 0;\n}\n```",
+        "options": [
+            "The constructor must be private",
+            "Object creation is incorrect because no arguments are passed",
+            "cout syntax is wrong",
+            "Constructors cannot have parameters"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "Identify the error in this C++ constructor code:\n\n```cpp\nclass Demo {\npublic:\n    Demo() {\n        cout << 'Constructor called' << endl;\n    }\n};\nint main() {\n    Demo obj1;\n    Demo obj2();\n    return 0;\n}\n```",
+        "options": [
+            "obj2 is incorrectly declared as a function",
+            "obj1 should be a pointer",
+            "The constructor should return a value",
+            "The constructor must be private"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the issue in the following code?\n\n```cpp\nclass Test {\npublic:\n    Test(int a) {\n        cout << 'Value: ' << a << endl;\n    }\n    Test() {\n        cout << 'Default constructor' << endl;\n    }\n};\nint main() {\n    Test obj(10);\n    return 0;\n}\n```",
+        "options": [
+            "Constructors cannot be overloaded",
+            "The order of constructors is incorrect",
+            "The default constructor is never used",
+            "There is a missing return type"
+        ],
+        "answer": 2,
+        "selected": -1
+    }
+]
