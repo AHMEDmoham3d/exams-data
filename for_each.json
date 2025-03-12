@@ -1,0 +1,79 @@
+[
+    {
+        "question": "What is the output of the following C++ code using for_each?\n\n```cpp\n#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nvoid print(int x) { cout << x * 2 << ' '; }\n\nint main() {\n    vector<int> v = {1, 2, 3, 4};\n    for_each(v.begin(), v.end(), print);\n    return 0;\n}\n```",
+        "options": [
+            "1 2 3 4",
+            "2 4 6 8",
+            "Error: for_each requires a lambda function",
+            "No output, for_each does not modify elements"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the correct way to use a lambda function in for_each?",
+        "options": [
+            "for_each(v.begin(), v.end(), [](int x) { cout << x << ' '; });",
+            "for_each(v.begin(), v.end(), x -> cout << x << ' ');",
+            "for_each(v.begin(), v.end(), [x] { cout << x << ' '; });",
+            "for_each(v.begin(), v.end(), {cout << x << ' ';});"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "Which header file must be included to use for_each in C++?",
+        "options": [
+            "#include <iostream>",
+            "#include <vector>",
+            "#include <algorithm>",
+            "#include <iterator>"
+        ],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C++ code?\n\n```cpp\n#include <iostream>\n#include <vector>\nusing namespace std;\n\nvoid print(int x) { cout << x << endl; }\n\nint main() {\n    vector<int> v = {1, 2, 3, 4, 5};\n    for_each(v.begin(), v.end(), print);\n    return 0;\n}\n```",
+        "options": [
+            "Missing #include <algorithm>",
+            "for_each cannot be used with vectors",
+            "print function must return an integer",
+            "for_each must be called inside a loop"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C++ code?\n\n```cpp\n#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint main() {\n    vector<int> v = {1, 2, 3, 4, 5};\n    for_each(v.begin(), v.end(), [](int x) { cout << x << endl; });\n}\n```",
+        "options": [
+            "Missing return statement in main function",
+            "Lambda function syntax is incorrect",
+            "for_each does not work with lambda functions",
+            "for_each cannot be used with iterators"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C++ code?\n\n```cpp\n#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint main() {\n    vector<int> v = {1, 2, 3, 4, 5};\n    for_each(v.begin(), v.end(), [](int x) { x *= 2; });\n    return 0;\n}\n```",
+        "options": [
+            "for_each cannot modify elements in a lambda function",
+            "Missing return statement in lambda function",
+            "Lambda function must be declared before for_each",
+            "Algorithm library is not needed"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C++ code?\n\n```cpp\n#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nvoid print(int& x) { x *= 2; }\n\nint main() {\n    vector<int> v = {1, 2, 3, 4, 5};\n    for_each(v.begin(), v.end(), print);\n    return 0;\n}\n```",
+        "options": [
+            "for_each cannot modify elements this way",
+            "Function arguments cannot be passed by reference",
+            "Algorithm library is missing",
+            "for_each does not support user-defined functions"
+        ],
+        "answer": 0,
+        "selected": -1
+    }
+]
