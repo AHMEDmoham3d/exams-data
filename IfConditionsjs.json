@@ -1,0 +1,67 @@
+[
+    {
+        "question": "What is the error in this JavaScript code?\n\nif (5 > 3) console.log('Yes') else console.log('No');",
+        "options": [
+            "Missing semicolon",
+            "Missing curly braces",
+            "Syntax error",
+            "No error"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in this JavaScript code?\n\nif (false) console.log('A'); else if console.log('B'); else console.log('C');",
+        "options": [
+            "Missing parentheses in else if",
+            "else if cannot be used here",
+            "Syntax error",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in this JavaScript code?\n\nif (x = 10) { console.log('Equal'); } else { console.log('Not Equal'); }",
+        "options": [
+            "Assignment instead of comparison",
+            "Missing curly braces",
+            "Incorrect syntax",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in this JavaScript code?\n\nif ('10' === 10) { console.log('Match'); } else console.log('Mismatch') }",
+        "options": [
+            "Extra closing curly brace",
+            "Comparison error",
+            "Syntax error",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in this JavaScript code?\n\nif (5 > 2);\n{ console.log('True'); } else { console.log('False'); }",
+        "options": [
+            "Unexpected semicolon after if condition",
+            "Curly braces are misplaced",
+            "else cannot be used here",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in this JavaScript code?\n\nlet x = 5;\nif (x > 2) \n  console.log('Greater');\nelse x < 2\n  console.log('Smaller');",
+        "options": [
+            "Missing parentheses in else condition",
+            "Incorrect comparison syntax",
+            "else block needs curly braces"
+        ],
+        "answer": 0,
+        "selected": -1
+    }
+]
