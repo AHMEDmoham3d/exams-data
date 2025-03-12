@@ -1,0 +1,90 @@
+[
+    {
+        "question": "Identify the bug in the function for adding an element:\n\n```dart\nvoid addToEnd(Node head, int value) {\n  Node newNode = Node(value);\n  while (head.next != null) {\n    head = head.next;\n  }\n  head.next = newNode;\n}\n```",
+        "options": [
+            "It modifies the head reference incorrectly",
+            "Loop runs infinitely",
+            "New node is not linked",
+            "Memory allocation is incorrect"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is wrong with the following linked list function?\n\n```dart\nvoid addToEnd(Node head, int value) {\n  Node newNode = Node(value);\n  if (head == null) {\n    head = newNode;\n  }\n  Node temp = head;\n  while (temp.next != null) {\n    temp = temp.next;\n  }\n  temp.next = newNode;\n}\n```",
+        "options": [
+            "head is not updated properly",
+            "New node is not created",
+            "Incorrect traversal logic",
+            "Function should return head"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the issue in this implementation?\n\n```dart\nvoid addToEnd(Node head, int value) {\n  Node newNode = Node(value);\n  Node temp = head;\n  while (temp.next != null) {\n    temp = temp.next;\n  }\n  newNode.next = temp; // Error\n}\n```",
+        "options": [
+            "New node is not linked correctly",
+            "It creates a cycle",
+            "Memory leak occurs",
+            "head should be checked"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What mistake exists in the following function?\n\n```dart\nvoid addToEnd(Node head, int value) {\n  Node newNode = Node(value);\n  if (head == null) {\n    head = newNode;\n    return;\n  }\n  Node temp = head;\n  while (temp != null) {\n    temp = temp.next;\n  }\n  temp.next = newNode;\n}\n```",
+        "options": [
+            "Loop condition should be temp.next != null",
+            "New node is not linked",
+            "Function should return head",
+            "New node should be created differently"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "Find the logical error in this function:\n\n```dart\nvoid addToEnd(Node head, int value) {\n  Node newNode = Node(value);\n  if (head == null) {\n    newNode = head; // Error\n    return;\n  }\n  Node temp = head;\n  while (temp.next != null) {\n    temp = temp.next;\n  }\n  temp.next = newNode;\n}\n```",
+        "options": [
+            "head should be updated differently",
+            "Incorrect assignment to newNode",
+            "Loop logic is incorrect",
+            "Function should return void"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the issue in the following function implementation?\n\n```dart\nvoid addToEnd(Node head, int value) {\n  Node newNode = Node(value);\n  Node temp = head;\n  while (temp != null) {\n    temp = temp.next;\n  }\n  temp = newNode;\n}\n```",
+        "options": [
+            "New node is not linked correctly",
+            "Incorrect traversal logic",
+            "Loop should break earlier",
+            "head should be updated differently"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the mistake in this linked list function?\n\n```dart\nvoid addToEnd(Node head, int value) {\n  Node newNode = Node(value);\n  if (head == null) {\n    head = newNode;\n  }\n  Node temp = head;\n  while (temp != null) {\n    temp = temp.next;\n  }\n  temp.next = newNode;\n}\n```",
+        "options": [
+            "head should be returned after modification",
+            "New node is not linked properly",
+            "Loop runs incorrectly",
+            "Memory leak occurs"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "Find the issue in this function for inserting a node:\n\n```dart\nvoid addToEnd(Node head, int value) {\n  Node newNode = Node(value);\n  Node temp = head;\n  while (temp.next != null) {\n    temp = temp.next;\n  }\n  temp = newNode;\n}\n```",
+        "options": [
+            "New node is not linked correctly",
+            "It modifies the head reference",
+            "Loop runs infinitely",
+            "Function should return head"
+        ],
+        "answer": 0,
+        "selected": -1
+    }
+]
