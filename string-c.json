@@ -1,0 +1,50 @@
+[
+    {
+      "question": "What will be the output of the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    char str[] = \"Hello\";\n    printf(\"%s\", str);\n    return 0;\n}\n```",
+      "options": ["Hello", "H", "Segmentation fault", "Compilation error"],
+      "answer": 0,
+      "selected": -1
+    },
+    {
+      "question": "What does the following C code output?\n\n```c\n#include <stdio.h>\nint main() {\n    char str[] = {'H', 'e', 'l', 'l', 'o', '\\0'};\n    printf(\"%s\", str);\n    return 0;\n}\n```",
+      "options": ["Hello", "H", "Segmentation fault", "Garbage value"],
+      "answer": 0,
+      "selected": -1
+    },
+    {
+      "question": "What is the length of the string in the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    char str[] = \"Hello\\0World\";\n    printf(\"%lu\", sizeof(str)/sizeof(str[0]));\n    return 0;\n}\n```",
+      "options": ["12", "6", "11", "10"],
+      "answer": 2,
+      "selected": -1
+    },
+    {
+      "question": "What will be the output of the following C code?\n\n```c\n#include <stdio.h>\nint main() {\n    char *str = \"Hello\";\n    str[0] = 'h';\n    printf(\"%s\", str);\n    return 0;\n}\n```",
+      "options": ["hello", "Compilation error", "Segmentation fault", "Garbage value"],
+      "answer": 2,
+      "selected": -1
+    },
+    {
+      "question": "Which function is used to concatenate two strings in C?",
+      "options": ["strcat()", "strcpy()", "strcmp()", "strlen()"],
+      "answer": 0,
+      "selected": -1
+    },
+    {
+      "question": "Which of the following is the correct way to declare a string in C?",
+      "options": [
+        "char str[] = \"Hello\";",
+        "char str = \"Hello\";",
+        "char str[5] = \"Hello\";",
+        "char *str; str = \"Hello\";"
+      ],
+      "answer": 0,
+      "selected": -1
+    },
+    {
+      "question": "What is the output of the following C code?\n\n```c\n#include <stdio.h>\n#include <string.h>\nint main() {\n    char str1[] = \"Hello\";\n    char str2[] = \"World\";\n    strcat(str1, str2);\n    printf(\"%s\", str1);\n    return 0;\n}\n```",
+      "options": ["HelloWorld", "Hello World", "Compilation error", "Segmentation fault"],
+      "answer": 0,
+      "selected": -1
+    }
+  ]
+  
