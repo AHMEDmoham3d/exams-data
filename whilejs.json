@@ -1,0 +1,57 @@
+[
+    {
+        "question": "What is the correct syntax for a while loop in JavaScript?",
+        "options": [
+            "while (condition) { // code }",
+            "while condition: { // code }",
+            "while { condition } ( // code )",
+            "loop while (condition) { // code }"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What happens if the condition in a while loop is always true?",
+        "options": [
+            "The loop runs indefinitely (infinite loop)",
+            "The loop stops after one iteration",
+            "The loop throws an error",
+            "The loop executes only once"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "Which statement can be used to exit a while loop early?",
+        "options": [
+            "continue",
+            "exit",
+            "break",
+            "stop"
+        ],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "What is the output of this code?\n\n```js\nlet i = 0; while (i < 3) { console.log(i); i++; }\n```",
+        "options": [
+            "0 1 2",
+            "1 2 3",
+            "0 1 2 3",
+            "No output"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What will happen?\n\n```js\nlet i = 0; while (i < 3) { console.log(i); }\n```",
+        "options": [
+            "Infinite loop",
+            "0 1 2",
+            "Error",
+            "Nothing"
+        ],
+        "answer": 0,
+        "selected": -1
+    }
+]
