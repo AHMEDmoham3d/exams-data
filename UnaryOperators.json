@@ -1,0 +1,37 @@
+[
+    {
+        "question": "What is the result of `var x = -5; console.log(+x);`?",
+        "options": ["5", "-5", "undefined", "NaN"],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What does `typeof +true` return?",
+        "options": ["'boolean'", "'number'", "'string'", "'undefined'"],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What happens when you use `!!` on a non-empty string?",
+        "options": [
+            "Converts to `true`",
+            "Throws an error",
+            "Converts to `false`",
+            "Remains the same"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "Which operator is used to increment a value by 1?",
+        "options": ["--", "++", "+=", "*="],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the result of `console.log(-'10');`?",
+        "options": ["10", "-10", "NaN", "undefined"],
+        "answer": 1,
+        "selected": -1
+    }
+]
