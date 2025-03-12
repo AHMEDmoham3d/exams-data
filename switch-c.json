@@ -1,0 +1,57 @@
+[
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\n\nint main() {\n    int num = 2;\n    switch (num) {\n        case 1:\n            printf(\"One\");\n        case 2:\n            printf(\"Two\");\n        case 3:\n            printf(\"Three\");\n        default:\n            printf(\"Default\");\n    }\n    return 0;\n}\n```",
+        "options": [
+            "Missing break statements, causing fall-through",
+            "Syntax error in switch statement",
+            "Incorrect use of printf",
+            "Missing semicolon after case labels"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "Find the error in the following C program:\n\n```c\n#include <stdio.h>\n\nint main() {\n    int x = 5;\n    switch (x) {\n        case 5:\n            printf(\"Five\");\n            break;\n        case 10:\n            printf(\"Ten\");\n            break;\n        x = 15;\n            printf(\"Fifteen\");\n    }\n    return 0;\n}\n```",
+        "options": [
+            "Assignment inside switch is invalid",
+            "Break statement is missing",
+            "Case labels should be inside brackets",
+            "Default case is missing"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "Identify the mistake in the given C code:\n\n```c\n#include <stdio.h>\n\nint main() {\n    char grade = 'B';\n    switch (grade) {\n        case 'A':\n            printf(\"Excellent\");\n        case 'B':\n            printf(\"Good\");\n            break;\n        case 'C':\n            printf(\"Average\");\n            break;\n    }\n    return 0;\n}\n```",
+        "options": [
+            "Missing break statement after 'A'",
+            "Incorrect use of char in switch",
+            "Switch cannot use character values",
+            "Case labels should have colons"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is wrong in the following C code?\n\n```c\n#include <stdio.h>\n\nint main() {\n    float num = 2.5;\n    switch (num) {\n        case 1.5:\n            printf(\"One and a half\");\n            break;\n        case 2.5:\n            printf(\"Two and a half\");\n            break;\n        default:\n            printf(\"Default case\");\n    }\n    return 0;\n}\n```",
+        "options": [
+            "Switch cases cannot have floating-point values",
+            "Break statements are missing",
+            "Syntax error in case labels",
+            "Printf function is used incorrectly"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the issue in the following C program?\n\n```c\n#include <stdio.h>\n\nint main() {\n    int value = 10;\n    switch (value) {\n        case 5:\n            printf(\"Five\");\n        case 10:\n            printf(\"Ten\");\n        case 15:\n            printf(\"Fifteen\");\n            break;\n    }\n    return 0;\n}\n```",
+        "options": [
+            "Missing break statements before case 10",
+            "Switch should be inside a loop",
+            "Printf should use format specifiers",
+            "Default case is missing"
+        ],
+        "answer": 0,
+        "selected": -1
+    }
+]
