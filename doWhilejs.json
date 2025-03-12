@@ -1,0 +1,41 @@
+[
+    {
+        "question": "What does a do-while loop guarantee?",
+        "options": [
+            "The loop runs at least once",
+            "The loop may never run",
+            "It is the same as a while loop",
+            "It is a conditional statement"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "Which keyword is used to exit a do-while loop prematurely?",
+        "options": ["return", "continue", "break", "exit"],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "What is the correct syntax for a do-while loop in JavaScript?",
+        "options": [
+            "do { } while(condition);",
+            "while(condition) { } do;",
+            "loop { } while(condition);",
+            "do-while(condition) { }"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What happens if the condition in a do-while loop is false on the first check?",
+        "options": [
+            "The loop runs once and then stops",
+            "The loop never runs",
+            "An error occurs",
+            "It runs indefinitely"
+        ],
+        "answer": 0,
+        "selected": -1
+    }
+]
