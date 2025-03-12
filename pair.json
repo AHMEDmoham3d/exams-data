@@ -1,0 +1,46 @@
+[
+    {
+        "question": "What is the error in the following C++ code?\n\n```cpp\n#include <iostream>\n#include <utility>\nusing namespace std;\n\nint main() {\n    pair<int, string> p(1, \"Hello\");\n    cout << p.first << \" \" << p.second;\n    return 0;\n}\n```",
+        "options": [
+            "pair should be initialized using make_pair",
+            "Incorrect syntax for pair initialization",
+            "No error",
+            "pair must have same data types"
+        ],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C++ code?\n\n```cpp\n#include <iostream>\n#include <utility>\nusing namespace std;\n\nint main() {\n    pair<int, int> p = make_pair(1, 2);\n    cout << p.first() << \" \" << p.second();\n    return 0;\n}\n```",
+        "options": [
+            "first() and second() should not have parentheses",
+            "make_pair cannot be used here",
+            "pair should store string values",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C++ code?\n\n```cpp\n#include <iostream>\n#include <utility>\nusing namespace std;\n\nint main() {\n    pair<int, double> p = {1, 2.5};\n    cout << p.first + p.second;\n    return 0;\n}\n```",
+        "options": [
+            "Type mismatch in pair elements",
+            "Implicit conversion issue",
+            "No error",
+            "Pair elements should be of the same type"
+        ],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C++ code?\n\n```cpp\n#include <iostream>\n#include <utility>\nusing namespace std;\n\nint main() {\n    pair<int, string> p = make_pair(1, 2);\n    cout << p.first << \" \" << p.second;\n    return 0;\n}\n```",
+        "options": [
+            "String expected but integer provided",
+            "Incorrect use of make_pair",
+            "No error",
+            "Syntax error in output statement"
+        ],
+        "answer": 0,
+        "selected": -1
+    }
+]
