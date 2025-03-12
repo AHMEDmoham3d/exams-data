@@ -1,0 +1,46 @@
+[
+    {
+        "question": "What is the error in the following C++ bubble sort implementation?\n\n```cpp\nvoid bubbleSort(int arr[], int n) {\n    for (int i = 0; i < n; i++) {\n        for (int j = 0; j < n - i; j++) {\n            if (arr[j] > arr[j + 1]) {\n                swap(arr[j], arr[j + 1]);\n            }\n        }\n    }\n}\n```",
+        "options": [
+            "Loop condition should be j < n - i - 1",
+            "swap function should be defined manually",
+            "Loop should start from i = 1",
+            "Array should be passed by reference"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the issue in the following Quick Sort partition function?\n\n```cpp\nint partition(int arr[], int low, int high) {\n    int pivot = arr[low];\n    int i = low;\n    for (int j = low + 1; j <= high; j++) {\n        if (arr[j] < pivot) {\n            i++;\n            swap(arr[i], arr[j]);\n        }\n    }\n    swap(arr[i], arr[low]);\n    return i;\n}\n```",
+        "options": [
+            "Pivot should be the last element, not the first",
+            "swap(arr[i], arr[low]) should be swap(arr[i], arr[high])",
+            "Loop should start from j = low instead of j = low + 1",
+            "The function does not return the correct pivot index"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the mistake in this Selection Sort implementation?\n\n```cpp\nvoid selectionSort(int arr[], int n) {\n    for (int i = 0; i < n - 1; i++) {\n        int minIdx = i;\n        for (int j = i + 1; j < n; j++) {\n            if (arr[j] > arr[minIdx]) {\n                minIdx = j;\n            }\n        }\n        swap(arr[i], arr[minIdx]);\n    }\n}\n```",
+        "options": [
+            "The comparison operator should be '<' instead of '>'",
+            "Loop condition should be j <= n instead of j < n",
+            "swap function should be replaced with a manual swap",
+            "minIdx should be initialized to 0 instead of i"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in this Merge Sort implementation?\n\n```cpp\nvoid merge(int arr[], int l, int m, int r) {\n    int n1 = m - l;\n    int n2 = r - m;\n    int L[n1], R[n2];\n    for (int i = 0; i < n1; i++) L[i] = arr[l + i];\n    for (int j = 0; j < n2; j++) R[j] = arr[m + j];\n    int i = 0, j = 0, k = l;\n    while (i < n1 && j < n2) {\n        if (L[i] <= R[j]) arr[k++] = L[i++];\n        else arr[k++] = R[j++];\n    }\n    while (i < n1) arr[k++] = L[i++];\n    while (j < n2) arr[k++] = R[j++];\n}\n```",
+        "options": [
+            "Array sizes should be (m - l + 1) and (r - m + 1)",
+            "Array indices are incorrect in copying subarrays",
+            "Stack overflow due to recursive calls",
+            "Dynamic memory allocation should be used instead of stack arrays"
+        ],
+        "answer": 3,
+        "selected": -1
+    }
+]
