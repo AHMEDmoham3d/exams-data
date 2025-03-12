@@ -1,0 +1,102 @@
+[
+  {
+      "question": "What is the error in the following C++ code?\n\n```cpp\n#include <iostream>\n#include <map>\nusing namespace std;\n\nint main() {\n    map<int, string> m;\n    m.insert(1, \"One\");\n    cout << m[1] << endl;\n    return 0;\n}\n```",
+      "options": [
+          "Incorrect use of insert()",
+          "Maps do not support indexing",
+          "Missing semicolon",
+          "Keys must be strings"
+      ],
+      "answer": 0,
+      "selected": -1
+  },
+  {
+      "question": "What is the output of the following C++ code?\n\n```cpp\n#include <iostream>\n#include <map>\nusing namespace std;\n\nint main() {\n    map<int, string> m;\n    m[1] = \"One\";\n    m[2] = \"Two\";\n    m.erase(1);\n    cout << m.size() << endl;\n    return 0;\n}\n```",
+      "options": ["1", "2", "0", "Compilation error"],
+      "answer": 0,
+      "selected": -1
+  },
+  {
+      "question": "Which of the following is the correct way to insert a key-value pair into a `map` in C++?",
+      "options": [
+          "m.insert(1, \"One\");",
+          "m[1] = \"One\";",
+          "m.add(1, \"One\");",
+          "m.put(1, \"One\");"
+      ],
+      "answer": 1,
+      "selected": -1
+  },
+  {
+      "question": "How do you check if a key exists in a C++ `map`?",
+      "options": [
+          "m.has(1);",
+          "m.find(1) != m.end();",
+          "m.exists(1);",
+          "m.contains(1);"
+      ],
+      "answer": 1,
+      "selected": -1
+  },
+  {
+      "question": "What happens when you access a key that does not exist in a C++ `map`?",
+      "options": [
+          "It throws an exception",
+          "It returns a default-constructed value",
+          "It returns `nullptr`",
+          "Compilation error"
+      ],
+      "answer": 1,
+      "selected": -1
+  },
+  {
+      "question": "What is the time complexity of searching for an element in a `map<int, string>` implemented using `std::map`?",
+      "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+      "answer": 1,
+      "selected": -1
+  },
+  {
+      "question": "Which container should be used instead of `std::map` if you need average O(1) time complexity for search operations?",
+      "options": [
+          "std::vector",
+          "std::unordered_map",
+          "std::set",
+          "std::deque"
+      ],
+      "answer": 1,
+      "selected": -1
+  },
+  {
+      "question": "Which of the following is the correct way to iterate over a `map<int, string>` in C++?",
+      "options": [
+          "for (auto it = m.begin(); it != m.end(); ++it) cout << it->first << \" \" << it->second << endl;",
+          "for (it in m) cout << it.first << \" \" << it.second << endl;",
+          "foreach (pair in m) cout << pair.first << \" \" << pair.second << endl;",
+          "m.loop((k, v) => cout << k << \" \" << v << endl);"
+      ],
+      "answer": 0,
+      "selected": -1
+  },
+  {
+      "question": "Which of the following statements about `std::map` in C++ is true?",
+      "options": [
+          "`std::map` stores elements in an unordered manner",
+          "`std::map` automatically sorts elements based on keys",
+          "Keys in `std::map` can be duplicated",
+          "The default comparison function for `std::map` is `std::greater`"
+      ],
+      "answer": 1,
+      "selected": -1
+  },
+  {
+      "question": "What will be the output of the following C++ code?\n\n```cpp\n#include <iostream>\n#include <map>\nusing namespace std;\n\nint main() {\n    map<int, string> m;\n    m[5] = \"Five\";\n    m[3] = \"Three\";\n    m[8] = \"Eight\";\n    for (auto& p : m) {\n        cout << p.first << \" \" << p.second << endl;\n    }\n    return 0;\n}\n```",
+      "options": [
+          "5 Five\n3 Three\n8 Eight",
+          "3 Three\n5 Five\n8 Eight",
+          "8 Eight\n5 Five\n3 Three",
+          "The order is unpredictable"
+      ],
+      "answer": 1,
+      "selected": -1
+  }
+]
