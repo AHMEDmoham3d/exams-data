@@ -1,0 +1,52 @@
+[
+    {
+        "question": "What is the syntax for template literals in JavaScript?",
+        "options": ["'text'", "\"text\"", "`text`", "(text)"],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "How do you embed a variable inside a template literal?",
+        "options": [
+            "'Hello ' + name",
+            "Hello {name}",
+            "`Hello ${name}`",
+            "(Hello name)"
+        ],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "What is one advantage of template literals?",
+        "options": [
+            "They allow multiline strings",
+            "They run faster",
+            "They use less memory",
+            "They replace all strings"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What will be the output of this code?\n\n```js\nconst name = 'John';\nconsole.log(`Hello,`);\n```",
+        "options": [
+            "Hello, John!",
+            "Hello,",
+            "Error",
+            "Undefined"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "Which of the following correctly uses a template literal?",
+        "options": [
+            "'The result is ' + (5 + 5)",
+            "`The result is ${5 + 5}`",
+            "(The result is {5 + 5})",
+            "\"The result is {5 + 5}\""
+        ],
+        "answer": 1,
+        "selected": -1
+    }
+]
