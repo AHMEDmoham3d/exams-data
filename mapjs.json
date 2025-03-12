@@ -1,0 +1,47 @@
+[
+    {
+        "question": "How do you create a Map in JavaScript?",
+        "options": [
+            "let myMap = {};",
+            "let myMap = new Map();",
+            "let myMap = [];",
+            "let myMap = Object.create();"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "Which method is used to add a key-value pair to a Map?",
+        "options": ["push()", "set()", "add()", "insert()"],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "How do you check if a key exists in a Map?",
+        "options": [
+            "myMap.has(key)",
+            "myMap.includes(key)",
+            "myMap.contains(key)",
+            "myMap.exists(key)"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What does myMap.get('key') return if the key is not found?",
+        "options": ["null", "undefined", "false", "Error"],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "Which of the following is NOT true about JavaScript Maps?",
+        "options": [
+            "Keys can be any type",
+            "Keys must be strings",
+            "They maintain insertion order",
+            "They allow efficient key-value retrieval"
+        ],
+        "answer": 1,
+        "selected": -1
+    }
+]
