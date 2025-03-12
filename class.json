@@ -1,0 +1,46 @@
+[
+    {
+        "question": "Find the error in the following C++ class definition:\n\n```cpp\n#include <iostream>\nusing namespace std;\n\nclass Test {\n    int x;\n    void show();\n};\n\nvoid Test::show() {\n    cout << x << endl;\n}\n\nint main() {\n    Test obj;\n    obj.show();\n    return 0;\n}\n```",
+        "options": [
+            "Missing constructor",
+            "Function `show` is private",
+            "Member variable `x` is uninitialized",
+            "Syntax error in class definition"
+        ],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "Find the error in the following C++ program:\n\n```cpp\n#include <iostream>\nusing namespace std;\n\nclass Demo {\npublic:\n    int num;\n    Demo(int n) {\n        num = n;\n    }\n};\n\nint main() {\n    Demo obj;\n    cout << obj.num << endl;\n    return 0;\n}\n```",
+        "options": [
+            "Class must have a destructor",
+            "Constructor must have a return type",
+            "Object `obj` must be initialized with a value",
+            "Data member `num` must be private"
+        ],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "Find the mistake in this C++ code snippet:\n\n```cpp\n#include <iostream>\nusing namespace std;\n\nclass Sample {\n    int a;\npublic:\n    Sample() { a = 10; }\n    void display() {\n        cout << a << endl;\n    }\n};\n\nint main() {\n    Sample* ptr = new Sample;\n    delete ptr;\n    ptr->display();\n    return 0;\n}\n```",
+        "options": [
+            "Memory leak in the program",
+            "Accessing a deleted object",
+            "Constructor missing",
+            "Syntax error in destructor"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "Identify the issue in this C++ class implementation:\n\n```cpp\n#include <iostream>\nusing namespace std;\n\nclass MyClass {\n    int value;\npublic:\n    MyClass(int v) { value = v; }\n    void display() {\n        cout << value << endl;\n    }\n};\n\nint main() {\n    MyClass obj1, obj2(10);\n    obj1.display();\n    obj2.display();\n    return 0;\n}\n```",
+        "options": [
+            "Constructor must initialize all variables",
+            "Object `obj1` is not initialized properly",
+            "Class must have a destructor",
+            "Function `display` should be static"
+        ],
+        "answer": 1,
+        "selected": -1
+    }
+]
