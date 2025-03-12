@@ -1,0 +1,92 @@
+[
+    {
+        "question": "What is the error in this JavaScript code?\n\nvar 123name = 'John';",
+        "options": [
+            "Variable name cannot start with a number",
+            "Missing semicolon",
+            "Cannot use 'var' for declaration",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the output of 2 + '2' in JavaScript?",
+        "options": ["'22'", "4", "Error", "'4'"],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the issue in the following code?\n\nconst x;\nx = 10;",
+        "options": [
+            "A const variable must be initialized when declared",
+            "x should be defined using var",
+            "Missing semicolon",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the problem in this JavaScript code?\n\nlet age = '25';\nconsole.log(age * 2);",
+        "options": [
+            "String cannot be multiplied by a number",
+            "Missing semicolon",
+            "JavaScript implicitly converts the string to a number",
+            "No error"
+        ],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "What is the issue in the following code?\n\nlet num = '10' - 5;",
+        "options": [
+            "String and number cannot be subtracted",
+            "JavaScript converts '10' to a number and subtracts",
+            "Error: Type mismatch",
+            "No error"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the output of the following JavaScript code?\n\nconsole.log(typeof NaN);",
+        "options": ["'number'", "'NaN'", "'undefined'", "'object'"],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is wrong with this JavaScript code?\n\nlet data = null;\nconsole.log(typeof data);",
+        "options": [
+            "null is not a valid value",
+            "typeof null returns 'null'",
+            "typeof null incorrectly returns 'object'",
+            "No error"
+        ],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "What is the output of the following JavaScript code?\n\nconsole.log(typeof []);",
+        "options": ["'array'", "'object'", "'list'", "'undefined'"],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the issue in the following code?\n\nlet x = 10;\nlet x = 20;",
+        "options": [
+            "A let variable cannot be redeclared in the same scope",
+            "JavaScript allows variable redeclaration",
+            "x should be declared using var",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the output of the following JavaScript code?\n\nconsole.log(0.1 + 0.2 === 0.3);",
+        "options": ["true", "false", "Error", "'0.3'"],
+        "answer": 1,
+        "selected": -1
+    }
+]
