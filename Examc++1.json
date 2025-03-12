@@ -1,0 +1,62 @@
+[
+    {
+        "question": "What is the error in the following C++ code?",
+        "code": "```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int x = 5;\n    switch(x) {\n        case 5:\n            cout << \"Five\" << endl;\n        case 10:\n            cout << \"Ten\" << endl;\n    }\n    return 0;\n}\n```",
+        "options": [
+            "Missing 'break' statements",
+            "Switch cannot have multiple cases",
+            "Switch must use only char variables",
+            "The case labels must be strings"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C++ code?",
+        "code": "```cpp\n#include <iostream>\nusing namespace std;\n\nvoid display() {\n    cout << \"Hello!\" << endl;\n}\n\nint main() {\n    display;\n    return 0;\n}\n```",
+        "options": [
+            "Function call missing parentheses",
+            "display must return a value",
+            "Functions cannot be called inside main",
+            "Function must be declared inside main"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C++ code?",
+        "code": "```cpp\n#include <iostream>\nusing namespace std;\n\nclass A {\n    int x;\n    A() { x = 10; }\n};\n\nint main() {\n    A obj;\n    return 0;\n}\n```",
+        "options": [
+            "Constructor is private",
+            "Class cannot have a constructor",
+            "Object must be created dynamically",
+            "Class variables must be public"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C++ code?",
+        "code": "```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int a = 5;\n    int& ref;\n    ref = a;\n    cout << ref << endl;\n    return 0;\n}\n```",
+        "options": [
+            "Reference must be initialized",
+            "References cannot be used with integers",
+            "Reference syntax is incorrect",
+            "A reference cannot be printed"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C++ code?",
+        "code": "```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Hello\" << endl\n    cout << \"World!\";\n    return 0;\n}\n```",
+        "options": [
+            "Missing semicolon",
+            "cout cannot be used twice",
+            "endl must be used only once",
+            "cout must be inside a function"
+        ],
+        "answer": 0,
+        "selected": -1
+    }
+]
