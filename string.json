@@ -1,0 +1,36 @@
+[
+    {
+        "question": "What will be the output of the following C++ code?\n\n```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    string s = \"Hello\";\n    s += \" World\";\n    cout << s << endl;\n    return 0;\n}\n```",
+        "options": [
+            "HelloWorld",
+            "Hello World",
+            "Compilation Error",
+            "Segmentation Fault"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the size of the string `s` after executing the following code?\n\n```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    string s = \"abcdef\";\n    cout << s.size();\n    return 0;\n}\n```",
+        "options": ["5", "6", "7", "Undefined"],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "Which function is used to get a substring from a string in C++?",
+        "options": ["slice()", "substr()", "substring()", "cut()"],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "How can you convert a C++ string to a C-style string (char array)?",
+        "options": [
+            "s.convertToCString()",
+            "s.toCharArray()",
+            "s.c_str()",
+            "s.toCString()"
+        ],
+        "answer": 2,
+        "selected": -1
+    }
+]
