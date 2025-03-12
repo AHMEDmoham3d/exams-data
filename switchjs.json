@@ -1,0 +1,52 @@
+[
+    {
+        "question": "What is wrong with the following code?\n\n```js\nswitch(value) {\n  case 1:\n    console.log('One');\n  case 2:\n    console.log('Two');\n  default:\n    console.log('Default case');\n}\n```",
+        "options": [
+            "Missing 'break' statements",
+            "Incorrect use of 'case'",
+            "Switch statement cannot have a default case"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is wrong with the following code?\n\n```js\nswitch(5) {\n  case '5':\n    console.log('Match');\n    break;\n  default:\n    console.log('No Match');\n}\n```",
+        "options": [
+            "Incorrect syntax in switch",
+            "Strict comparison issue between number and string",
+            "No error"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is wrong with the following code?\n\n```js\nswitch(x) {\n  case 10:\n    console.log('Ten');\n    break;\n  case 20:\n    console.log('Twenty');\n    break;\n  default:\n    console.log('Other');\n}\n```",
+        "options": [
+            "Missing colon ':' after 'case 20'",
+            "Switch statement must always have a default case",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is wrong with the following code?\n\n```js\nswitch(x) {\n  case 1:\n    let y = 10;\n    break;\n  case 2:\n    console.log(y);\n    break;\n}\n```",
+        "options": [
+            "Variable 'y' is not defined in case 2",
+            "Switch must have an 'else' case",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is wrong with the following code?\n\n```js\nswitch(x) {\n  case 1:\n    console.log('One');\n    break;\n  case 2:\n    console.log('Two');\n    break;\n  default:\n    console.log('Default case');\n}\n```",
+        "options": [
+            "Missing semicolon in case 2",
+            "Switch must have a 'return' statement",
+            "Cannot use console.log inside switch"
+        ],
+        "answer": 0,
+        "selected": -1
+    }
+]
