@@ -1,0 +1,62 @@
+[
+    {
+        "question": "What is the correct syntax for printing 'Hello, World!' in C++?",
+        "code": "```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Hello, World!\";\n    return 0;\n}\n```",
+        "options": [
+            "cout << \"Hello, World!\";",
+            "print(\"Hello, World!\");",
+            "System.out.println(\"Hello, World!\");",
+            "echo 'Hello, World!';"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "Which header file is required for using cout in C++?",
+        "code": "```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Hello\";\n    return 0;\n}\n```",
+        "options": [
+            "#include <iostream>",
+            "#include <stdio.h>",
+            "#include <cout.h>",
+            "#include <string>"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "How do you print a new line using cout?",
+        "code": "```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Line 1\" << endl;\n    cout << \"Line 2\\n\";\n    return 0;\n}\n```",
+        "options": [
+            "cout << endl;",
+            "cout << '\\n';",
+            "Both A and B",
+            "cout.newline();"
+        ],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "Which statement is correct about cout?",
+        "code": "```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Hello, C++\";\n    return 0;\n}\n```",
+        "options": [
+            "cout is a function",
+            "cout is an object of ostream class",
+            "cout is a keyword in C++",
+            "cout is a macro"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the output of the following code?",
+        "code": "```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << 5 << ' ' << 10;\n    return 0;\n}\n```",
+        "options": [
+            "510",
+            "5 10",
+            "5,10",
+            "Error"
+        ],
+        "answer": 1,
+        "selected": -1
+    }
+]
