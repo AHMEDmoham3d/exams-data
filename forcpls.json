@@ -1,0 +1,53 @@
+[
+    {
+      "question": "What is the correct syntax for a for loop in C++?",
+      "code": null,
+      "options": [
+        "for (int i = 0; i < 10; i++)",
+        "loop (int i = 0; i < 10; i++)",
+        "while (i < 10; i++)",
+        "repeat (int i = 0; i < 10; i++)"
+      ],
+      "answer": 0,
+      "selected": -1
+    },
+    {
+      "question": "What is the output of the following for loop?",
+      "code": "for (int i = 0; i < 5; i++) { cout << i << ' '; }",
+      "options": ["0 1 2 3 4", "1 2 3 4 5", "0 2 4 6 8", "Infinite loop"],
+      "answer": 0,
+      "selected": -1
+    },
+    {
+      "question": "Which part of the for loop is executed only once?",
+      "code": "for (int i = 0; i < 10; i++) { ... }",
+      "options": ["Initialization", "Condition", "Increment", "Loop body"],
+      "answer": 0,
+      "selected": -1
+    },
+    {
+      "question": "Which of the following is an infinite for loop?",
+      "code": null,
+      "options": [
+        "for (;;) { }",
+        "for (int i = 0; i < 10; i--) { }",
+        "for (int i = 0; i < 10; i++) { }",
+        "None of the above"
+      ],
+      "answer": 0,
+      "selected": -1
+    },
+    {
+      "question": "What is the purpose of the third section in a for loop?",
+      "code": "for (int i = 0; i < 10; i++) { ... }",
+      "options": [
+        "To initialize variables",
+        "To update the loop variable",
+        "To check the loop condition",
+        "To define the loop body"
+      ],
+      "answer": 1,
+      "selected": -1
+    }
+  ]
+  
