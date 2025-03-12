@@ -1,0 +1,63 @@
+[
+    {
+      "question": "Find the error in the following C code:\n int number;\nscanf('%d', number);\nprintf('Number: %d', number);",
+      "code": "int number;\nscanf(\"%d\", number);\nprintf(\"Number: %d\", number);",
+      "options": [
+        "Missing '&' before number",
+        "Should use %i instead of %d",
+        "Variable number must be float",
+        "No error"
+      ],
+      "answer": 0,
+      "selected": -1
+    },
+    {
+      "question": "Find the error in the following C code:\nfloat price;\nscanf('%d', &price);\nprintf('Price: %.2f', price);",
+      "code": "float price;\nscanf(\"%d\", &price);\nprintf(\"Price: %.2f\", price);",
+      "options": [
+        "Should use %f instead of %d in scanf",
+        "Missing '&' before price",
+        "Should use %lf instead of %f",
+        "No error"
+      ],
+      "answer": 0,
+      "selected": -1
+    },
+    {
+      "question": "Find the error in the following C code:\nchar name[20];\nscanf(\"%s\", name);\nprintf(\"Hello, %s!\", name);",
+      "code": "char name[20];\nscanf(\"%s\", name);\nprintf(\"Hello, %s!\", name);",
+      "options": [
+        "May cause buffer overflow",
+        "Should use '&' before name",
+        "Should use %c instead of %s",
+        "No error"
+      ],
+      "answer": 0,
+      "selected": -1
+    },
+    {
+      "question": "Find the error in the following C code:\ndouble value;\nscanf(\"%lf\", value);\nprintf(\"Value: %lf\", value);",
+      "code": "double value;\nscanf(\"%lf\", value);\nprintf(\"Value: %lf\", value);",
+      "options": [
+        "Missing '&' before value",
+        "Should use %f instead of %lf",
+        "Should use int instead of double",
+        "No error"
+      ],
+      "answer": 0,
+      "selected": -1
+    },
+    {
+      "question": "Find the error in the following C code:\nchar ch;\nscanf(\"%c\", &ch);\nprintf(\"Character: %c\", ch);",
+      "code": "char ch;\nscanf(\"%c\", &ch);\nprintf(\"Character: %c\", ch);",
+      "options": [
+        "scanf may read a whitespace character instead of input",
+        "Should use &ch twice",
+        "ch should be defined as int",
+        "No error"
+      ],
+      "answer": 0,
+      "selected": -1
+    }
+  ]
+  
