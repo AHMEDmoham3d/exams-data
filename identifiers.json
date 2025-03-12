@@ -1,0 +1,42 @@
+[
+    {
+        "question": "What is the correct way to declare a variable in JavaScript?",
+        "options": ["var x;", "let x;", "const x;", "All of the above"],
+        "answer": 3,
+        "selected": -1
+    },
+    {
+        "question": "Which of the following is a valid JavaScript identifier?",
+        "options": ["2name", "_name", "name!", "var"],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "Which keyword is NOT allowed as an identifier in JavaScript?",
+        "options": ["let", "myVariable", "function", "js_identifier"],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "What is the rule for naming an identifier in JavaScript?",
+        "options": [
+            "It must start with a letter, $, or _",
+            "It can start with a number",
+            "It can contain special characters like @, #",
+            "It can be a reserved keyword"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "Why should we use meaningful identifiers in JavaScript?",
+        "options": [
+            "To make the code more readable",
+            "To improve debugging and maintenance",
+            "To follow best practices",
+            "All of the above"
+        ],
+        "answer": 3,
+        "selected": -1
+    }
+]
