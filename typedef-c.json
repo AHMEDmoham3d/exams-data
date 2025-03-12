@@ -1,0 +1,90 @@
+[
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\ntypedef int Integer;\nInteger x = 10;\nprintf('%d', y);\n```",
+        "options": [
+            "Variable 'y' is not declared",
+            "Incorrect use of printf format",
+            "Typedef 'Integer' is not defined correctly",
+            "The variable x should be a pointer"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\ntypedef float f;\nf a = '3.5';\nprintf('%f', a);\n```",
+        "options": [
+            "Incorrect type assignment for f",
+            "Missing semicolon after the printf statement",
+            "Typedef 'f' is incorrectly defined",
+            "Incorrect use of printf format"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\ntypedef char* String;\nString str = 'Hello';\nprintf('%s', str);\n```",
+        "options": [
+            "Incorrect use of single quotes for string",
+            "Typedef 'String' is not correct",
+            "The printf format is incorrect",
+            "Nothing is wrong with the code"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\ntypedef unsigned int Uint;\nUint num = -10;\nprintf('%u', num);\n```",
+        "options": [
+            "Unsigned int cannot store negative values",
+            "Typedef 'Uint' is not valid",
+            "Incorrect printf format for unsigned integer",
+            "Nothing is wrong with the code"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\ntypedef int Array[10];\nArray arr = {1, 2, 3};\nprintf('%d', arr[2]);\n```",
+        "options": [
+            "Array 'arr' is not initialized properly",
+            "The typedef for 'Array' is incorrect",
+            "Typedef 'Array' cannot be used like this",
+            "Nothing is wrong with the code"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\ntypedef struct { int a; float b; } Point;\nPoint p = {1, 'c'};\nprintf('%d %f', p.a, p.b);\n```",
+        "options": [
+            "Invalid initialization for struct members",
+            "Incorrect printf format for struct members",
+            "Typedef for 'Point' is incorrect",
+            "Nothing is wrong with the code"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\ntypedef double MyDouble;\nMyDouble x = 100;\nprintf('%f', x);\n```",
+        "options": [
+            "Incorrect initialization of typedef 'MyDouble'",
+            "Typedef 'MyDouble' is incorrectly defined",
+            "printf format should be '%lf' instead of '%f'",
+            "Nothing is wrong with the code"
+        ],
+        "answer": 2,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following C code?\n\n```c\n#include <stdio.h>\ntypedef unsigned char Byte;\nByte a = 300;\nprintf('%u', a);\n```",
+        "options": [
+            "Unsigned char cannot hold values greater than 255",
+            "Typedef 'Byte' should be a different type",
+            "The printf format is incorrect",
+            "Nothing is wrong with the code"
+        ],
+        "answer": 0,
+        "selected": -1
+    }
+]
