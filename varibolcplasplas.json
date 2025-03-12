@@ -1,0 +1,122 @@
+[
+    {
+        "question": "What is the error in defining the following variable in C++?",
+        "code": "int 1number = 10;",
+        "options": [
+            "A variable cannot start with a number",
+            "float should be used instead of int",
+            "The value must be enclosed in quotes",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the problem in the following code?",
+        "code": "const int x = 5;\nx = 10;",
+        "options": [
+            "Variable x is not defined",
+            "Cannot reassign a value to a const variable",
+            "x should be defined using float",
+            "No error"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following code?",
+        "code": "int x = 5;\nint x = 10;",
+        "options": [
+            "Cannot redefine the same variable in the same scope",
+            "static should be used instead of int",
+            "A new value should be assigned to x instead of redefining it",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the problem in the following code?",
+        "code": "cout << y;\nint y = 20;",
+        "options": [
+            "Variable y is not defined",
+            "Cannot use a variable before defining it",
+            "y should be defined using float",
+            "No error"
+        ],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in defining the following variable?",
+        "code": "int my-var = 50;",
+        "options": [
+            "A variable name cannot contain (-)",
+            "float should be used instead of int",
+            "const should be used instead of int",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the problem in the following code?",
+        "code": "float pi = 3.14;\nint pi = 5;",
+        "options": [
+            "Cannot redefine a variable with a different type",
+            "pi should be declared as const",
+            "Use double instead of float",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following code?",
+        "code": "char letter = 'AB';",
+        "options": [
+            "A char variable can only store a single character",
+            "Use double quotes instead of single quotes",
+            "letter should be defined as string",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the issue with this variable declaration?",
+        "code": "bool isReady = 1.5;",
+        "options": [
+            "A boolean variable can only be true (1) or false (0)",
+            "Use int instead of bool",
+            "The value must be a string",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the error in the following code?",
+        "code": "string name = 'John';",
+        "options": [
+            "Use double quotes for string literals",
+            "Use char instead of string",
+            "The variable must be an int",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the issue with this variable declaration?",
+        "code": "int number;\ncout << number;",
+        "options": [
+            "Variable 'number' is used without being initialized",
+            "number must be declared as float",
+            "The variable name is invalid",
+            "No error"
+        ],
+        "answer": 0,
+        "selected": -1
+    }
+]
