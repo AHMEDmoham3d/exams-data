@@ -1,0 +1,37 @@
+[
+    {
+        "question": "What does Math.round(4.6) return?",
+        "options": ["4", "5", "4.6", "Error"],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What does Math.floor(7.9) return?",
+        "options": ["7", "8", "7.9", "Error"],
+        "answer": 0,
+        "selected": -1
+    },
+    {
+        "question": "What is the result of Math.pow(2, 3)?",
+        "options": ["6", "8", "9", "16"],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What does Math.sqrt(16) return?",
+        "options": ["2", "4", "8", "16"],
+        "answer": 1,
+        "selected": -1
+    },
+    {
+        "question": "What does Math.random() return?",
+        "options": [
+            "A random number between 0 and 1",
+            "A random integer",
+            "Always 0.5",
+            "None of the above"
+        ],
+        "answer": 0,
+        "selected": -1
+    }
+]
